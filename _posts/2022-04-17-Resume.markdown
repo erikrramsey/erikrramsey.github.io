@@ -1,0 +1,12 @@
+---
+title:  "Resume"
+date:   2022-04-17 01:29:23
+categories: []
+tags: []
+---
+PDF Resume
+
+<object data="/images/Resume 2022.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/images/Resume 2022.pdf">
+    </embed>
+</object>
