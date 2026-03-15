@@ -9,7 +9,7 @@ baseurl: ''
 
 author:
   name: 'Erik Ramsey'
-  email: erikr.ramsey@gmail.com
+  # email: erikr.ramsey@gmail.com
 #  twitter_username: joshgerdes
 #  facebook_username: joshgerdes
   github_username:  erikrramsey
