@@ -95,18 +95,24 @@ body {
 
 	</head>
 	<body>
-		<canvas id="canvas">
-			Your browser does not support the canvas tag.
-		</canvas>
+    <h1>Hello, world!</h1>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/bDRERoHOWAM?si=0aSONOYnnbQIzWWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<div class="container-sm">
 
-		<noscript>
-			Your browser does not support JavaScript.
-		</noscript>
+			<canvas id="canvas">
+				Your browser does not support the canvas tag.
+			</canvas>
 
-		<div id="status">
-			<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="sokoban.png" alt="">
-			<progress id="status-progress"></progress>
-			<div id="status-notice"></div>
+			<noscript>
+				Your browser does not support JavaScript.
+			</noscript>
+
+			<div id="status">
+				<!-- <img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="sokoban.png" alt=""> -->
+				<img id="status-splash" class="show-image--true use-filter--true" src="sokoban.png" alt="">
+				<progress id="status-progress"></progress>
+				<div id="status-notice"></div>
+			</div>
 		</div>
 
 		<script src="sokoban.js"></script>
