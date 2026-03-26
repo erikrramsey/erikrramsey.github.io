@@ -6,11 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<style>
+			body {
+				margin: 0;
+				padding: 16px;
+				background: #111;
+				color: #fff;
+				font-family: system-ui, sans-serif;
+			}
+
+			.grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+				gap: 16px;
+			}
+
+			.grid img,
+			.grid video {
+				width: 100%;
+				height: auto;
+				border-radius: 8px;
+				background: #000;
+			}
+
+			.grid video {
+				max-height: 500px;
+				object-fit: contain;
+			}
+		</style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-		<img src="https://i.imgur.com/daxbeVR.jpeg" />
-		<img src="https://i.imgur.com/2bBYC0p.jpeg" />
+    <h1>Pictures from Spring in Kyoto, 3/26/26</h1>
+		<div>
+			<pre>
+Hi so the blog post today is that I'm trying a new way to post pictures
+online for free, and display them how I like them. So I've uploaded some
+pics to imgur, and have made a tiny stylesheet that displays them in a
+grid. I don't really like the google photo albums for this purpose, as there is
+a storage limit. I also don't really like the layout of imgur galleries, as I
+like seeing all my pics in a grid (and optional captions etc.).
+			</pre>
+		</div>
+
+
+		<div class="grid">
+			<a href="https://imgur.com/2bBYC0p"><img src="https://i.imgur.com/2bBYC0p.jpeg" /></a>
+			<a href="https://imgur.com/pHy8GoU"><img src="https://i.imgur.com/pHy8GoU.jpeg" /></a>
+			<a href="https://imgur.com/lTgeBd7"><img src="https://i.imgur.com/lTgeBd7.jpeg" /></a>
+			<a href="https://imgur.com/KcL6ivY"><img src="https://i.imgur.com/KcL6ivY.jpeg" /></a>
+			<a href="https://imgur.com/FR9CWnk"><img src="https://i.imgur.com/FR9CWnk.jpeg" /></a>
+			<a href="https://imgur.com/8Vo8PL8"><img src="https://i.imgur.com/8Vo8PL8.jpeg" /></a>
+			<a href="https://imgur.com/5p9azv3"><img src="https://i.imgur.com/5p9azv3.jpeg" /></a>
+			<a href="https://imgur.com/V6p5TPQ"><img src="https://i.imgur.com/V6p5TPQ.jpeg" /></a>
+			<a href="https://imgur.com/EDzOBTz"><img src="https://i.imgur.com/EDzOBTz.jpeg" /></a>
+			<a href="https://imgur.com/zRRI4Kq"><img src="https://i.imgur.com/zRRI4Kq.jpeg" /></a>
+			<a href="https://imgur.com/wAnPvbI"><img src="https://i.imgur.com/wAnPvbI.jpeg" /></a>
+			<a href="https://imgur.com/015qREU"><img src="https://i.imgur.com/015qREU.jpeg" /></a>
+			<a href="https://imgur.com/IFYkz20"><img src="https://i.imgur.com/IFYkz20.jpeg" /></a>
+			<a href="https://imgur.com/YsJwryK"><img src="https://i.imgur.com/YsJwryK.jpeg" /></a>
+			<a href="https://imgur.com/WhkV9GF"><img src="https://i.imgur.com/WhkV9GF.jpeg" /></a>
+			<a href="https://imgur.com/hHv1uuo"><img src="https://i.imgur.com/hHv1uuo.jpeg" /></a>
+			<a href="https://imgur.com/C9kZS6k"><img src="https://i.imgur.com/C9kZS6k.jpeg" /></a>
+			<a href="https://imgur.com/jayfxIR"><img src="https://i.imgur.com/jayfxIR.jpeg" /></a>
+			<a href="https://imgur.com/HpkbaU5"><img src="https://i.imgur.com/HpkbaU5.jpeg" /></a>
+			<a href="https://imgur.com/hjqrbHG"><img src="https://i.imgur.com/hjqrbHG.jpeg" /></a>
+			<a href="https://imgur.com/Nv2kMEG"><img src="https://i.imgur.com/Nv2kMEG.jpeg" /></a>
+			<a href="https://imgur.com/9m4VWrT"><img src="https://i.imgur.com/9m4VWrT.jpeg" /></a>
+			<a href="https://imgur.com/NItvpLE"><img src="https://i.imgur.com/NItvpLE.jpeg" /></a>
+			<a href="https://imgur.com/bzK6i6l"><img src="https://i.imgur.com/bzK6i6l.jpeg" /></a>
+			<a href="https://imgur.com/6zAFx8F"><img src="https://i.imgur.com/6zAFx8F.jpeg" /></a>
+
+		</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
